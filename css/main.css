@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400&display=swap");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  color: #2b2b2b;
+  /*font-family: 'Cabin', sans-serif;*/
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  min-width: 320px;
+  /*overflow: hidden;*/
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html,
+html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+}
+a {
+  color: #2b2b2b;
+}
+a,
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  outline: 0 none !important;
+  text-decoration: none;
+}
+.nav-link.active {
+  background-color: #ff4157;
+  color: white !important;
+}
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ff4157 !important;
+  color: white !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-header {
+  background-color: black;
+}
+
+.secondary-header .social-links i {
+  color: white;
+}
+
+.carousel {
+  height: 40vh;
+}
+
+.carousel-item img {
+  height: 40vh;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar .btn-cta {
+  background-color: #ff4157;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2em;
+  letter-spacing: -5px;
+}
+
+.navbar-brand span {
+  color: #ff4157;
+}
+
+.circle-shape img {
+  background-color: #ddd;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.vacation {
+  color: white;
+  position: relative;
+  background: url("../assets/images/vacation-banner.png");
+}
+
+.vacation__container::before {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -50%;
+  position: absolute;
+  top: 0;
+  transform: skewX(-30deg);
+  width: 100%;
+  z-index: 0;
+}
+
+.vacation__container--content {
+  z-index: 10000;
+}
+
+.testimonial .carousel {
+  background-color: #000;
+  color: white;
+}
+
+.carousel-item p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.carousel__user-info {
+  background-color: #ff4157;
+  color: white;
+}
+.carousel__user-info img {
+  width: 1rem;
+}
+
+.carousel-indicators button {
+  /* background-color: green; */
+}
+
+.services .btn-default {
+  border: 1px solid grey;
+}
+
+.services .btn-default:hover {
+  background-color: #ff4157;
+  border: 1px solid #ff4157;
+  color: white;
+}
+
+.services h5 {
+  font-weight: 700;
+  color: #000000ef;
+}
+.blog .row img {
+  width: 100%;
+}
+
+.blog-desc .btn:hover {
+  background-color: #ff4157;
+  border: 1px solid #ff4157;
+}
+
+.blog p {
+  font-size: 14.5px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  margin: 26px 0;
+}
+
+.blog h5 {
+  font-size: initial;
+}
+
+.blog h5 a:hover {
+  color: #ff4157;
+}
+
+footer {
+  background-color: #162541;
+}
+
+.get-in-touch i {
+  color: #ff4157;
+}
+.footer-social-links i:hover {
+  color: #ff4157;
+  border: 1px solid #ff4157;
+}
+
+.footer-social-links i {
+  color: white;
+  border: 1px solid white;
+}
+
+footer .subscribe-btn {
+  background-color: white;
+  padding: 0;
+}
+
+footer .subscribe-btn i {
+  color: #ff4157;
+}
+
+footer .form-control {
+  padding: 0.5rem !important;
+  border-radius: 0;
+  border-right: 0;
+  box-shadow: none;
+}
+
+footer a:hover {
+  color: #ff4157 !important;
+}
+
+/* footer input {
+  position: relative;
+  width: 100%;
+}
+footer input .btn-subscribe {
+  position: absolute;
+  right: 0;
+} */
+
+/*back to top*/
+#scroll-to-top {
+  background: #ff4157;
+  bottom: 40px;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#scroll-to-top:hover {
+  background: #c01b21;
+}
+
+.footer-note span {
+  color: #ff4157;
+}
+
+@media screen and (min-width: 500px) {
+  /* .blog .row img {
+    width: 50%;
+  }
+  .blog .beside-img {
+    width: 50%;
+  } */
+}
+
+@media screen and (min-width: 768px) {
+  .features-row h4 {
+    font-size: 0.89em;
+  }
+  .blog h5 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .blog .row img {
+    width: 100%;
+  }
+  .blog .beside-img {
+    width: 100%;
+  }
+
+  .blog h5 {
+    font-size: initial;
+  }
+}

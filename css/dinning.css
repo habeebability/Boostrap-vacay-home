@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-tomato {
+  color: #ff4157;
+}
+.btn-default {
+  background-color: #ff4157;
+  color: white;
+}
+
+.btn-default:hover {
+  background-color: white;
+  border: 1px solid #ff4157;
+}
+
+.dinning-paragraph {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.title-category,
+.title-archive,
+.title-pop-post {
+  border-bottom: 1px solid #ff4157;
+}
+
+.title-archive,
+.title-pop-post {
+  margin-top: 1.5rem;
+}
